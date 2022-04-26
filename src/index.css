@@ -28,6 +28,13 @@ nav {
 .card-content{
   margin-top: auto;
 }
+.search-panel{
+  display: flex;
+  align-items: center;
+}
+.search-input{
+  
+}
 /*
 .search-btn {
     position: absolute;
