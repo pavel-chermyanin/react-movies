@@ -35,6 +35,9 @@ nav {
 .search-input{
   
 }
+.filter-panel label{
+  margin-right: 2rem;
+}
 /*
 .search-btn {
     position: absolute;
