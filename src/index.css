@@ -29,6 +29,7 @@ nav {
   margin-top: auto;
 }
 .search-panel{
+  position: relative;
   display: flex;
   align-items: center;
 }
@@ -38,12 +39,16 @@ nav {
 .filter-panel label{
   margin-right: 2rem;
 }
-/*
+
 .search-btn {
     position: absolute;
     top: 0;
     right: 0.5rem;
 }
+.header-logo{
+  white-space: nowrap;
+}
+/*
 
 label:not(:last-child) {
     margin-right: 1rem;

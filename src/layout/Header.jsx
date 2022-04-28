@@ -3,7 +3,7 @@ const Header = () => {
     return (
         <nav className="blue lighten-3">
             <div className="nav-wrapper">
-                <a href="#" className="brand-logo">
+                <a href="#" className="brand-logo header-logo">
                     React Movies
                 </a>
                 <ul
