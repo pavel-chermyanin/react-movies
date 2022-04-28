@@ -1,5 +1,5 @@
 import { Movies } from "../components/Movies"
-import { Component } from "react/cjs/react.development";
+import { Component } from "react";
 import { Preloader } from '../components/Preloader'
 import { Search } from '../components/Search'
 
