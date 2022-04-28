@@ -6,10 +6,15 @@ import { Search } from '../components/Search'
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 class Main extends Component {
-  state = {
-    movies: [],
-    loading: true
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      movies: [],
+      loading: true
+    }
   }
+
 
   componentDidMount() {
 
@@ -18,7 +23,7 @@ class Main extends Component {
       .then(data => this.setState({ movies: data.Search, loading: false }))
       .catch((err) => {
         console.log(err);
-        this.setState({loading: false})
+        this.setState({ loading: false })
       })
   }
 

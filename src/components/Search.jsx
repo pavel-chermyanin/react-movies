@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 
 class Search extends Component {
+    constructor(props) {
+        super(props)
 
-    state = {
-        search: 'alien',
-        type: 'series'
+        this.state = {
+            search: 'alien',
+            type: 'series'
+        }
     }
 
 
